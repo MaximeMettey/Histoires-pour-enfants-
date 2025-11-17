@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Histoires pour Enfants",
+    "slug": "histoires-pour-enfants",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFE5B4",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.histoirespourenfants.app"
+    },
+    "android": {
+      "package": "com.histoirespourenfants.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#FFE5B4"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": []
+  }
+}
