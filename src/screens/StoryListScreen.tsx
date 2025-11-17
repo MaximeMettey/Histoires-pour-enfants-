@@ -16,6 +16,9 @@ interface StoryListScreenProps {
 }
 
 export default function StoryListScreen({ navigation }: StoryListScreenProps) {
+  console.log('StoryListScreen is rendering...');
+  console.log('Number of stories:', stories.length);
+
   const renderStoryCard = ({ item }: { item: Story }) => (
     <TouchableOpacity
       style={styles.card}
