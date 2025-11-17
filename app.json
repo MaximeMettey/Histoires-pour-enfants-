@@ -4,29 +4,24 @@
     "slug": "histoires-pour-enfants",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#FFE5B4"
+      "backgroundColor": "#FFE5B4",
+      "resizeMode": "contain"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.histoirespourenfants.app"
     },
     "android": {
+      "package": "com.histoirespourenfants.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFE5B4"
-      },
-      "package": "com.histoirespourenfants.app"
+      }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "bundler": "metro"
+    },
+    "plugins": []
   }
 }
